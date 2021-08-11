@@ -1,0 +1,3 @@
+This is a sample text file
+It is for use in the first RTS Labs at home coding exercise
+This is the end of the file
