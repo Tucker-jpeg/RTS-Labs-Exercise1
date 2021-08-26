@@ -2,12 +2,12 @@
 # A path to the text file should be provided to the script by an argument given at runtime (e.g. hello.sh path/to/file.txt).
 
 #Open the file with access mode 'a' to append
-file_object = open('sample.txt', 'a')
+edit_file = open('sample.txt', 'a')
 
 #Add a new line that says "Hello World"
-file_object.write("\nHello World")
+edit_file.write("\nHello World")
 
 #Save and close the file
-file_object.close()
+edit_file.close()
 
 print("New line added to sample.txt")
